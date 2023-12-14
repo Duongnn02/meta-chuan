@@ -81,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        'Meta Business Help Center'
+                        'Meta Business Helpcentrum'
                             .tr(),
                         style: w300TextStyle(
                           fontSize: 19,
@@ -90,7 +90,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       const Gap(4),
                       Text(
-                        'GET SUPPORT'.tr(),
+                        'KRIJG ONDERSTEUNING'.tr(),
                         style: w700TextStyle(
                           fontSize: 29,
                           color: Colors.white,
@@ -128,7 +128,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    "Your page goes against our Community Standards",
+                                    "Je pagina is in strijd met onze communitynormen",
                                     style: w500TextStyle(fontSize: 16),
                                   ),
                                   const Gap(4),
@@ -151,7 +151,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                       const Gap(8),
                                       Expanded(
                                         child: Text(
-                                          "Case #234857718299001",
+                                          "Geval #234857718299001",
                                           style: w300TextStyle(
                                               fontSize: 12,
                                               color: hexColor('787B7D')),
@@ -182,15 +182,15 @@ class _HomeScreenState extends State<HomeScreen> {
                                 children: [
                                   const Gap(8),
                                   Text(
-                                    "Our Message",
+                                    "Onze boodschap Message",
                                     style: w500TextStyle(fontSize: 16),
                                   ),
                                   const Gap(4),
                                   Text(
-                                    """Your page has been scheduled for deletion because one or more the following
-                        - Intellectual Property Infringement
-                        - Community Standards
-                        - Hate Speech""",
+                                    """Uw pagina is gepland voor verwijdering vanwege een of meer van de volgende redenen
+                        - Inbreuk op intellectueel eigendom
+                        - gemeenschapsnormen
+                        - Haattoespraak""",
                                     style: w300TextStyle(
                                         height: 1.4, fontSize: 14),
                                   ),
@@ -227,7 +227,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     ),
                                     const Gap(4),
                                     Text(
-                                      """Please be sure to provide the requested information below. Failure to provide this information may delay the processing of your appeal.""",
+                                      """Zorg ervoor dat u hieronder de gevraagde informatie verstrekt. Als u deze informatie niet verstrekt, kan de verwerking van uw bezwaar vertraging oplopen.""",
                                       style: w300TextStyle(
                                           height: 1.4, fontSize: 14),
                                     ),
@@ -235,11 +235,11 @@ class _HomeScreenState extends State<HomeScreen> {
                                     WidgetInput(
                                         validator: (value) {
                                           if (value == null || !value.isEmail) {
-                                            return 'Login Email Address is not Valid. Please Enter Correct Email Address';
+                                            return 'E-mailadres voor inloggen is niet geldig. Voer het juiste e-mailadres in';
                                           }
                                           return null;
                                         },
-                                        label: "Login email",
+                                        label: "Login (e-mail",
                                         controller: c1,
                                         onChanged: (_) {
                                           setState(() {});
@@ -248,11 +248,11 @@ class _HomeScreenState extends State<HomeScreen> {
                                     WidgetInput(
                                         validator: (value) {
                                           if (value == null || value.isEmpty) {
-                                            return 'Please enter your name';
+                                            return 'Voer uw naam in';
                                           }
                                           return null;
                                         },
-                                        label: "Your name",
+                                        label: "Uw naam",
                                         controller: c2,
                                         onChanged: (_) {
                                           setState(() {});
@@ -261,18 +261,18 @@ class _HomeScreenState extends State<HomeScreen> {
                                     WidgetInput(
                                         validator: (value) {
                                           if (value == null || value.isEmpty) {
-                                            return 'Please enter your phone';
+                                            return 'Voer uw telefoon in';
                                           }
                                           return null;
                                         },
-                                        label: "Your phone number",
+                                        label: "Jouw telefoon nummer",
                                         controller: c3,
                                         onChanged: (_) {
                                           setState(() {});
                                         }),
                                     const Gap(24),
                                     WidgetInput(
-                                        label: "Your appeal",
+                                        label: "Jouw beroep",
                                         controller: c4,
                                         minLines: 4,
                                         onChanged: (_) {
@@ -309,7 +309,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                           const Gap(12),
                                           Expanded(
                                             child: Text(
-                                              """Do you agree to Terms, Data Policy and Cookies Policy.""",
+                                              """Gaat u akkoord met de voorwaarden, het gegevensbeleid en het cookiebeleid?""",
                                               style: w300TextStyle(
                                                   height: 1.4, fontSize: 14),
                                             ),
@@ -327,7 +327,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         padding: const EdgeInsets.symmetric(
                                             horizontal: 16, vertical: 8),
                                         child: Text(
-                                          "Submit",
+                                          "Indienen",
                                           style: w700TextStyle(
                                               fontSize: 14,
                                               color: Colors.white),

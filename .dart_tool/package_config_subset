@@ -1,3 +1,7 @@
+meta_business
+2.19
+file:///Applications/XAMPP/xamppfiles/htdocs/meta/meta-chuan/
+file:///Applications/XAMPP/xamppfiles/htdocs/meta/meta-chuan/lib/
 _fe_analyzer_shared
 3.0
 file:///Users/nguyenngocduong/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-64.0.0/
@@ -702,10 +706,6 @@ yaml
 2.19
 file:///Users/nguyenngocduong/.pub-cache/hosted/pub.dev/yaml-3.1.2/
 file:///Users/nguyenngocduong/.pub-cache/hosted/pub.dev/yaml-3.1.2/lib/
-meta_business
-2.19
-file:///Users/nguyenngocduong/Downloads/meta/external_meta_business/
-file:///Users/nguyenngocduong/Downloads/meta/external_meta_business/lib/
 sky_engine
 3.2
 file:///Users/nguyenngocduong/development/flutter/bin/cache/pkg/sky_engine/

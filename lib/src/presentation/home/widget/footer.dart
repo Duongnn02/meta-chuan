@@ -20,7 +20,7 @@ class Footer extends StatelessWidget {
             children: [
               const Gap(12),
               Text(
-                'Facebook can help your large, medium or small business grow. Get the latest news for advertisers and more on our Facebook for Business Page.'
+                'Facebook kan je grote, middelgrote of kleine onderneming helpen groeien. Ontvang het laatste nieuws voor adverteerders en meer op onze Facebook voor Bedrijven-pagina.'
                     .tr(),
                 style: w300TextStyle(
                   fontSize: 15,
@@ -36,7 +36,7 @@ class Footer extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Facebook technologies'.tr(),
+                          'Facebook-technologieën'.tr(),
                           style: w500TextStyle(
                             fontSize: 15,
                             color: Colors.white,
@@ -106,7 +106,7 @@ class Footer extends StatelessWidget {
                       ),
                       const Gap(12),
                       Text(
-                        'Set up a Facebook Page'.tr(),
+                        'Zet een Facebook-pagina op'.tr(),
                         style: w300TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -114,7 +114,7 @@ class Footer extends StatelessWidget {
                       ),
                       const Gap(12),
                       Text(
-                        'Build brand awareness'.tr(),
+                        'Bouw merkbekendheid op'.tr(),
                         style: w300TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -122,7 +122,7 @@ class Footer extends StatelessWidget {
                       ),
                       const Gap(12),
                       Text(
-                        'Promote your local'.tr(),
+                        'Promoot uw lokale'.tr(),
                         style: w300TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -130,7 +130,7 @@ class Footer extends StatelessWidget {
                       ),
                       const Gap(12),
                       Text(
-                        'Grow online sales'.tr(),
+                        'Laat de online verkoop groeien'.tr(),
                         style: w300TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -138,7 +138,7 @@ class Footer extends StatelessWidget {
                       ),
                       const Gap(12),
                       Text(
-                        'Promote your app'.tr(),
+                        'Promoot uw app'.tr(),
                         style: w300TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -146,7 +146,7 @@ class Footer extends StatelessWidget {
                       ),
                       const Gap(12),
                       Text(
-                        'Generate leads'.tr(),
+                        'Genereer leads'.tr(),
                         style: w300TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -159,7 +159,7 @@ class Footer extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Facebook technologies'.tr(),
+                          'Facebook-technologieën'.tr(),
                           style: w500TextStyle(
                             fontSize: 15,
                             color: Colors.white,
@@ -199,7 +199,7 @@ class Footer extends StatelessWidget {
                         ),
                         const Gap(12),
                         Text(
-                          'Audience Network'.tr(),
+                          'Publiek netwerk'.tr(),
                           style: w300TextStyle(
                             fontSize: 15,
                             color: Colors.white,
@@ -229,7 +229,7 @@ class Footer extends StatelessWidget {
                       ),
                       const Gap(12),
                       Text(
-                        'Set up a Facebook Page'.tr(),
+                        'Zet een Facebook-pagina op'.tr(),
                         style: w300TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -237,7 +237,7 @@ class Footer extends StatelessWidget {
                       ),
                       const Gap(12),
                       Text(
-                        'Build brand awareness'.tr(),
+                        'Bouw merkbekendheid op'.tr(),
                         style: w300TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -245,7 +245,7 @@ class Footer extends StatelessWidget {
                       ),
                       const Gap(12),
                       Text(
-                        'Promote your local'.tr(),
+                        'Promoot uw lokale'.tr(),
                         style: w300TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -253,7 +253,7 @@ class Footer extends StatelessWidget {
                       ),
                       const Gap(12),
                       Text(
-                        'Grow online sales'.tr(),
+                        'Laat de online verkoop groeien'.tr(),
                         style: w300TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -261,7 +261,7 @@ class Footer extends StatelessWidget {
                       ),
                       const Gap(12),
                       Text(
-                        'Promote your app'.tr(),
+                        'Promoot uw app'.tr(),
                         style: w300TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -269,7 +269,7 @@ class Footer extends StatelessWidget {
                       ),
                       const Gap(12),
                       Text(
-                        'Generate leads'.tr(),
+                        'Genereer leads'.tr(),
                         style: w300TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -282,7 +282,7 @@ class Footer extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Facebook technologies'.tr(),
+                          'Facebook-technologieën'.tr(),
                           style: w500TextStyle(
                             fontSize: 15,
                             color: Colors.white,
@@ -322,7 +322,7 @@ class Footer extends StatelessWidget {
                         ),
                         const Gap(12),
                         Text(
-                          'Audience Network'.tr(),
+                          'Publiek netwerk'.tr(),
                           style: w300TextStyle(
                             fontSize: 15,
                             color: Colors.white,
@@ -389,7 +389,7 @@ class Footer extends StatelessWidget {
                     style: w300TextStyle(),
                   ),
                   Text(
-                    "More languages",
+                    "Meer talen",
                     style: w300TextStyle(),
                   ),
                 ],

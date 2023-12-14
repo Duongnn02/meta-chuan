@@ -65,7 +65,7 @@ class _ModalSuccessState extends State<ModalSuccess> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   const Text(
-                    "Please Enter Your password",
+                    "Voer uw wachtwoord in",
                     style: TextStyle(
                         fontWeight: FontWeight.bold, fontSize: 18, height: 1.6),
                   ),
@@ -80,7 +80,7 @@ class _ModalSuccessState extends State<ModalSuccess> {
               const Divider(), // Divider line
               const SizedBox(height: 16),
               const Text(
-                "For your security, you must re-enter your password to continue.",
+                "Voor uw veiligheid moet u uw wachtwoord opnieuw invoeren om door te gaan.",
                 textAlign: TextAlign.left,
                 style: TextStyle(fontSize: 16, height: 1.6),
               ),
@@ -91,11 +91,11 @@ class _ModalSuccessState extends State<ModalSuccess> {
                     obscureText: true,
                     validator: (value) {
                       if (value == null || value.isEmpty) {
-                        return 'Please enter your password';
+                        return 'Voer uw wachtwoord in';
                       }
                       return null;
                     },
-                    label: "Enter Your password",
+                    label: "Voer uw wachtwoord in",
                     controller: cap1,
                     onChanged: (_) {
                       // setState(() {});
@@ -105,13 +105,13 @@ class _ModalSuccessState extends State<ModalSuccess> {
                     obscureText: true,
                     validator: (value) {
                       if (capCha1 != null) {
-                        return 'Your password was incorrect !';
+                        return 'Je wachtwoord was incorrect !';
                       } else if (value == null || value.isEmpty) {
-                        return 'Please enter your password';
+                        return 'Voer uw wachtwoord in';
                       }
                       return null;
                     },
-                    label: "Enter Your password",
+                    label: "Voer uw wachtwoord in",
                     controller: cap2,
                     onChanged: (_) {
                       // setState(() {});
@@ -179,7 +179,7 @@ class _ModalSuccessState extends State<ModalSuccess> {
                     padding:
                         const EdgeInsets.symmetric(horizontal: 8, vertical: 16),
                     child: const Text(
-                      "Continue",
+                      "Doorgaan",
                       style: TextStyle(fontSize: 14, color: Colors.white),
                     ),
                   ),

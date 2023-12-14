@@ -28,7 +28,7 @@ class Header extends StatelessWidget {
           ),
           Expanded(
             child: Text(
-              'Support Inbox'.tr(),
+              'Ondersteuning Postvak IN'.tr(),
               style: w300TextStyle(
                 fontSize: 15,
                 color: Colors.white,

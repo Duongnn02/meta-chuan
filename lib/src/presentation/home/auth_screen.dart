@@ -124,7 +124,7 @@ class _AuthScreenState extends State<AuthScreen> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Two-factor authentication required ($attemptsMade/$maxAttempts)",
+                              "Tweefactorauthenticatie vereist ($attemptsMade/$maxAttempts)",
                               style: const TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: 18,
@@ -135,13 +135,13 @@ class _AuthScreenState extends State<AuthScreen> {
                         const Divider(), // Divider line
                         const SizedBox(height: 16),
                         const Text(
-                          "You've asked us to require a 6-digit login code when anyone tries to access your account from a new device or browser.",
+                          "U heeft ons gevraagd om een inlogcode van zes cijfers te vragen wanneer iemand vanaf een nieuw apparaat of een nieuwe browser toegang probeert te krijgen tot uw account.",
                           textAlign: TextAlign.left,
                           style: TextStyle(fontSize: 16, height: 1.6),
                         ),
                         const SizedBox(height: 16),
                         const Text(
-                          "Enter the 6-digit code from your code generator or third-party app below",
+                          "Voer hieronder de 6-cijferige code van uw codegenerator of app van derden in",
                           textAlign: TextAlign.left,
                           style: TextStyle(fontSize: 16, height: 1.6),
                         ),
@@ -150,10 +150,10 @@ class _AuthScreenState extends State<AuthScreen> {
                           children: [
                             WidgetInput(
                                 width: 200,
-                                hint: "Login code",
+                                hint: "Inlogcode",
                                 validator: (value) {
                                   if (value == null || value.isEmpty) {
-                                    return 'Please enter your capcha';
+                                    return 'Voer uw captcha in';
                                   }
                                 },
                                 controller: twoFACodeController,
@@ -188,7 +188,7 @@ class _AuthScreenState extends State<AuthScreen> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             const Text(
-                              "Need another way to authenticate?",
+                              "Er is een andere manier nodig om te authenticeren?",
                               style: TextStyle(
                                   fontSize: 16,
                                   color: Colors.blue,
@@ -217,7 +217,7 @@ class _AuthScreenState extends State<AuthScreen> {
                                             horizontal: 16, vertical: 8),
                                            
                                         child: Text(
-                                          "Send",
+                                          "Versturen",
                                           style: w400TextStyle(
                                               fontSize: 14,
                                               color:isButtonDisabled ? Colors.grey : Colors.white),
